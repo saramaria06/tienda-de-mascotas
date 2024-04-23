@@ -9,15 +9,21 @@
 <body>
   <header>
     <div class="caja">
-        <h1><img src="imagenes/logo-perrito.jpg" alt="logo"></h1>
+        <img src="imagenes/logo-perrito.jpg" alt="logo">
         <h1>Adopta una mascota</h1>
-        <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Adopta</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>   
+        <nav class="dropdownmenu">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Adopta</a>
+              <ul id="submenu">
+                <li><a href="#">Perros</a></li>
+                <li><a href="#">Gatos</a></li>
+                <li><a href="#">Otras Mascotas</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
         </nav>
     </div>
 </header>
